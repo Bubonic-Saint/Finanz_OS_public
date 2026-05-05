@@ -1,0 +1,17 @@
+# Credentials - never commit
+data/.env
+
+# Excel temp/lock file (created when file is open)
+~$*.xlsm
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.claude/
+
+# Staging file (transient, auto-deleted)
+data/pending_import.tsv
