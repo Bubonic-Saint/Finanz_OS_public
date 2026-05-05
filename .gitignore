@@ -1,5 +1,6 @@
 # Credentials - never commit
 data/.env
+data/archives
 
 # Excel temp/lock file (created when file is open)
 ~$*.xlsm
